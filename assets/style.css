@@ -290,3 +290,20 @@ form img {
     text-transform: uppercase !important;
     font-weight: 400 !important;
 }
+
+.copyright {
+    margin-top: 30px;
+    color: whitel
+}
+
+.copyright a {
+    color: #8b98a9;
+    ;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #8b98a9;
+    ;
+    text-decoration: none;
+}
