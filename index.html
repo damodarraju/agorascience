@@ -8,6 +8,8 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="assets/style.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/tablet_responsive.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/mobile_responsive.css" crossorigin="anonymous">
     <!-- Font css -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
     <!-- Bootstrap CSS -->
@@ -17,69 +19,77 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-3 col-sm-6">
-                    <img class="header-logo" src="assets/images/logo.png" alt="Logo" />
-                </div>
-                <div class="col-lg-8 col-md-9 col-sm-6" style="margin: auto;">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Protocol</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Community</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Developers</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Art</a>
-                                <a class="dropdown-item" href="#">Faq</a>
-                                <a class="dropdown-item" href="#">Newsletter</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
-        <div class="body-area">
-            <div class="container" style="max-width: 60rem;">
-                <div class="row" style="margin-bottom: calc(4rem);">
-                    <div class="col-lg-7 col-md-6 col-sm-12">
-                        <h1>A Decentralized Data Exchange Protocol to Unlock Data for AI</h1>
-                        <p>Ocean Protocol is kickstarting a Data Economy by breaking down data silos and equalizing access to data for all.</p>
-                        <div class="triggers">
-                            <button type="button" class="btn btn-light">Register for token distribution</button>
-                            <button type="button" class="btn btn-dark">Help build ocean</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-sm-12">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FEeicvNSyk4" allowfullscreen></iframe>
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/FEeicvNSyk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
+    <div class="header_main_body">
+        <header>
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <aside class="sc-eHgmQL hISxaS"><a href="https://github.com/oceanprotocol" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><path d="m40.9776018 24.9894877c1.4426352 2.1128147 2.2275985 4.7545254 1.9758445 7.955592-.3408579 4.3280858-4.0266496 9.0549203-8.4620458 9.0549203h-13.985076c-4.4325676 0-8.1197736-4.7268345-8.4606316-9.0549203-.2489253-3.1982975.5346237-5.8386236 1.9744302-7.9514383-.1640644-.2838316-3.6207316-6.3896724.8684099-9.9922569 2.8216249 0 7.1297298 4.5482283 7.1523594 4.5717656 3.5302133-.9982565 7.4833168-.9913338 11.0050441.0221527l-.03253-.0207682s4.3264914-4.5745346 7.155188-4.5745346c4.596632 3.6911953.8542664 10.0199477.8542664 10.0199477zm-7.8199318 14.2414235c2.7353496 0 4.9502191-2.169581 4.9502191-4.8459053 0-8.2643454-5.8356011-4.8888262-10.6076123-4.8888262-4.7734255 0-10.6076123-3.2896775-10.6076123 4.8888262 0 2.6763243 2.2162838 4.8459053 4.9502191 4.8459053zm-.65767-3.2309112c-.8284271 0-1.5-.8954305-1.5-2s.6715729-2 1.5-2 1.5.8954305 1.5 2-.6715729 2-1.5 2zm-10 0c-.8284271 0-1.5-.8954305-1.5-2s.6715729-2 1.5-2 1.5.8954305 1.5 2-.6715729 2-1.5 2z" fill="#fff"></path></g></svg>Check us out on GitHub</a>
-                            <a href="https://t.me/joinchat/GUyxrE0Hi154D0NrlOqLFg" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 56 55" width="26"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25" x="0.833"></rect><g transform="translate(10.25 14.255)"><path d="m12.6288083 26.0153453c-.981915 0-.8150632-.3707566-1.1537174-1.3056925l-2.88750121-9.5030773 22.22670271-13.18596616" fill="#b0b0b0"></path><path d="m12.6288083 26.0153453c.7577285 0 1.0925182-.3465346 1.515457-.7577285l4.0412187-3.92958-5.0409151-3.0397543" fill="#d8d9d9"></path><path d="m13.1440637 18.2890402 12.2145835 9.024294c1.3938416.7690692 2.3998272.3708828 2.7470184-1.294074l4.9719618-23.42972304c.509042-2.04086595-.7779598-2.96650709-2.1113852-2.36113253l-29.19527915 11.25757237c-1.99285121.7993278-1.98123271 1.9111428-.36325504 2.4065457l7.49216685 2.338426 17.34516314-10.94286252c.8188267-.49653949 1.5703419-.2295892.9535255.31784186" fill="#fff"></path></g></g></svg>Telegram
-                            Chat</a><a href="https://t.me/oceanprotocol" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 56 55" width="26"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25" x="0.833"></rect><g transform="translate(10.25 14.255)"><path d="m12.6288083 26.0153453c-.981915 0-.8150632-.3707566-1.1537174-1.3056925l-2.88750121-9.5030773 22.22670271-13.18596616" fill="#b0b0b0"></path><path d="m12.6288083 26.0153453c.7577285 0 1.0925182-.3465346 1.515457-.7577285l4.0412187-3.92958-5.0409151-3.0397543" fill="#d8d9d9"></path><path d="m13.1440637 18.2890402 12.2145835 9.024294c1.3938416.7690692 2.3998272.3708828 2.7470184-1.294074l4.9719618-23.42972304c.509042-2.04086595-.7779598-2.96650709-2.1113852-2.36113253l-29.19527915 11.25757237c-1.99285121.7993278-1.98123271 1.9111428-.36325504 2.4065457l7.49216685 2.338426 17.34516314-10.94286252c.8188267-.49653949 1.5703419-.2295892.9535255.31784186" fill="#fff"></path></g></g></svg>Telegram News</a>
-                            <a href="https://gitter.im/oceanprotocol/Lobby" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><path d="m15.2048295 9.40451172h3.4733686v22.92312408h-3.4733686zm21.1172497 5.55711258h3.4730913v17.3660115h-3.4730913zm-14.0318549 0h3.4730914v30.633864h-3.4730914zm6.94646 0h3.4733687v30.633864h-3.4733687z" fill="#fff"></path></g></svg>Gitter</a>
-                            <a href="https://twitter.com/oceanprotocol" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><path d="m27.3804404 21.8979232.0743703 1.2213522-1.2381997-.1504746c-4.5039677-.5718035-8.4377633-2.5154337-11.7792063-5.7769706l-1.6335363-1.6188559-.4201268 1.1950191c-.8911385 2.6646543-.3222712 5.4797833 1.534376 7.3720014.9889941 1.0457984.767188 1.1950191-.9407186.5730574-.5936574-.2006328-1.1129445-.3485995-1.1625247-.2746162-.1735306.1755537.4201268 2.4414504.8898337 3.3380282.6445423 1.2451773 1.9558075 2.4652755 3.3910232 3.1875536l1.2134096.5730574-1.4352157.0250791c-1.3869402 0-1.4352156.0250791-1.2877799.5467244.4958018 1.6188559 2.4503046 3.3380282 4.6279182 4.0853853l1.534376.5228993-1.3373601.7962614c-2.0081005 1.1542071-4.2928577 1.7892379-6.632001 1.8433138-1.1129445.0250791-2.0288731.1253955-2.0288731.1993788 0 .2482831 3.0191719 1.6426811 4.7753539 2.1919134 5.2711557 1.6176019 11.5339149.9204029 16.2348986-1.8433139 3.3401382-1.9687093 6.6815812-5.877287 8.2407473-9.6629771.8415583-2.0176136 1.6831165-5.7029873 1.6831165-7.4723177 0-1.1448609.0743703-1.2940816 1.4600058-2.6646544.8167681-.7962614 1.5839562-1.6677601 1.7326967-1.9172972.2479009-.472741.221806-.472741-1.039879-.0501582-2.1032433.7473572-2.4007244.6482948-1.3608454-.472741.767188-.7975154 1.6831166-2.2420715 1.6831166-2.6646543 0-.0752373-.3718514.0501582-.7919781.2733622-.4462216.249537-1.4352157.6232156-2.1789183.8476735l-1.3360553.4225829-1.2134096-.8213406c-.6667229-.4489158-1.6074416-.946736-2.1019386-1.0959566-1.2629898-.3485995-3.1927025-.2984413-4.3317418.1003164-3.0922374 1.1197818-5.0480449 4.0088941-4.8249341 7.1726225z" fill="#fff"></path></g></svg>Twitter</a>
-                            <a href="https://blog.oceanprotocol.com/" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><g fill="#fff" transform="translate(13 15)"><g fill-opacity="0.7"><path d="m19.337.027c-.14-.07-.254 0-.254.157v19.267l8.406 4.218c.418.21.761-.003.761-.472v-18.547c.0004551-.0924982-.0514332-.1773006-.134-.219l-8.779-4.405"></path><path d="m9.917 14.647 9.06-14.503c.0878393-.1335189.2607236-.1817557.405-.113l8.753 4.31c.0518435.0250656.0906021.0709701.1066233.1262815.0160213.0553115.0077975.1148246-.0226233.1637185l-9.092 14.552z"></path><path d="m1.345.125c-.572-.28-.766-.073-.43.461l8.78 13.993 9.388 4.604-9.328-14.867c-.0398554-.0636114-.0966453-.1148608-.164-.148z"></path></g><path d="m9.917 23.194c0 .472-.343.686-.762.475l-7.897-3.98c-.28-.141-.508-.514-.508-.829v-18.49c0-.314.228-.456.508-.316l8.546 4.307c.069.035.113.107.113.185z"></path></g></g></svg>Blog</a>
-                        </aside>
+                    <div class="col-lg-4 col-md-3 col-sm-6">
+                        <img class="header-logo" src="assets/images/logo.png" alt="Logo" />
+                    </div>
+                    <div class="col-lg-8 col-md-9 col-sm-6" style="margin: auto;">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Protocol</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Community</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Developers</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Art</a>
+                                    <a class="dropdown-item" href="#">Faq</a>
+                                    <a class="dropdown-item" href="#">Newsletter</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-
             </div>
-        </div>
-    </header>
+        </header>
+        <main>
+            <div class="body-area">
+                <div class="container" style="max-width: 60rem;">
+                    <div class="row" style="margin-bottom: 3rem;">
+                        <div class="col-lg-7 col-md-6 col-sm-12">
+                            <h1>An online, transparent academic collaboration platform that is powered by blockchain technology. </h1>
+                            <p>Implement Agora Science for your institution and revolutionize your research.</p>
+                            <div class="triggers">
+                                <button type="button" class="btn btn-light">Explore the Platform</button>
+                                <button type="button" class="btn btn-dark">Check out our features</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-12">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FEeicvNSyk4" allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/FEeicvNSyk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <aside class="sc-eHgmQL hISxaS"><a href="https://github.com/oceanprotocol" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><path d="m40.9776018 24.9894877c1.4426352 2.1128147 2.2275985 4.7545254 1.9758445 7.955592-.3408579 4.3280858-4.0266496 9.0549203-8.4620458 9.0549203h-13.985076c-4.4325676 0-8.1197736-4.7268345-8.4606316-9.0549203-.2489253-3.1982975.5346237-5.8386236 1.9744302-7.9514383-.1640644-.2838316-3.6207316-6.3896724.8684099-9.9922569 2.8216249 0 7.1297298 4.5482283 7.1523594 4.5717656 3.5302133-.9982565 7.4833168-.9913338 11.0050441.0221527l-.03253-.0207682s4.3264914-4.5745346 7.155188-4.5745346c4.596632 3.6911953.8542664 10.0199477.8542664 10.0199477zm-7.8199318 14.2414235c2.7353496 0 4.9502191-2.169581 4.9502191-4.8459053 0-8.2643454-5.8356011-4.8888262-10.6076123-4.8888262-4.7734255 0-10.6076123-3.2896775-10.6076123 4.8888262 0 2.6763243 2.2162838 4.8459053 4.9502191 4.8459053zm-.65767-3.2309112c-.8284271 0-1.5-.8954305-1.5-2s.6715729-2 1.5-2 1.5.8954305 1.5 2-.6715729 2-1.5 2zm-10 0c-.8284271 0-1.5-.8954305-1.5-2s.6715729-2 1.5-2 1.5.8954305 1.5 2-.6715729 2-1.5 2z" fill="#fff"></path></g></svg>Check us out on GitHub</a>
+                                <a href="https://t.me/joinchat/GUyxrE0Hi154D0NrlOqLFg" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 56 55" width="26"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25" x="0.833"></rect><g transform="translate(10.25 14.255)"><path d="m12.6288083 26.0153453c-.981915 0-.8150632-.3707566-1.1537174-1.3056925l-2.88750121-9.5030773 22.22670271-13.18596616" fill="#b0b0b0"></path><path d="m12.6288083 26.0153453c.7577285 0 1.0925182-.3465346 1.515457-.7577285l4.0412187-3.92958-5.0409151-3.0397543" fill="#d8d9d9"></path><path d="m13.1440637 18.2890402 12.2145835 9.024294c1.3938416.7690692 2.3998272.3708828 2.7470184-1.294074l4.9719618-23.42972304c.509042-2.04086595-.7779598-2.96650709-2.1113852-2.36113253l-29.19527915 11.25757237c-1.99285121.7993278-1.98123271 1.9111428-.36325504 2.4065457l7.49216685 2.338426 17.34516314-10.94286252c.8188267-.49653949 1.5703419-.2295892.9535255.31784186" fill="#fff"></path></g></g></svg>Telegram
+                                            Chat</a><a href="https://t.me/oceanprotocol" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 56 55" width="26"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25" x="0.833"></rect><g transform="translate(10.25 14.255)"><path d="m12.6288083 26.0153453c-.981915 0-.8150632-.3707566-1.1537174-1.3056925l-2.88750121-9.5030773 22.22670271-13.18596616" fill="#b0b0b0"></path><path d="m12.6288083 26.0153453c.7577285 0 1.0925182-.3465346 1.515457-.7577285l4.0412187-3.92958-5.0409151-3.0397543" fill="#d8d9d9"></path><path d="m13.1440637 18.2890402 12.2145835 9.024294c1.3938416.7690692 2.3998272.3708828 2.7470184-1.294074l4.9719618-23.42972304c.509042-2.04086595-.7779598-2.96650709-2.1113852-2.36113253l-29.19527915 11.25757237c-1.99285121.7993278-1.98123271 1.9111428-.36325504 2.4065457l7.49216685 2.338426 17.34516314-10.94286252c.8188267-.49653949 1.5703419-.2295892.9535255.31784186" fill="#fff"></path></g></g></svg>Telegram News</a>
+                                <a href="https://gitter.im/oceanprotocol/Lobby" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><path d="m15.2048295 9.40451172h3.4733686v22.92312408h-3.4733686zm21.1172497 5.55711258h3.4730913v17.3660115h-3.4730913zm-14.0318549 0h3.4730914v30.633864h-3.4730914zm6.94646 0h3.4733687v30.633864h-3.4733687z" fill="#fff"></path></g></svg>Gitter</a>
+                                <a href="https://twitter.com/oceanprotocol" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><path d="m27.3804404 21.8979232.0743703 1.2213522-1.2381997-.1504746c-4.5039677-.5718035-8.4377633-2.5154337-11.7792063-5.7769706l-1.6335363-1.6188559-.4201268 1.1950191c-.8911385 2.6646543-.3222712 5.4797833 1.534376 7.3720014.9889941 1.0457984.767188 1.1950191-.9407186.5730574-.5936574-.2006328-1.1129445-.3485995-1.1625247-.2746162-.1735306.1755537.4201268 2.4414504.8898337 3.3380282.6445423 1.2451773 1.9558075 2.4652755 3.3910232 3.1875536l1.2134096.5730574-1.4352157.0250791c-1.3869402 0-1.4352156.0250791-1.2877799.5467244.4958018 1.6188559 2.4503046 3.3380282 4.6279182 4.0853853l1.534376.5228993-1.3373601.7962614c-2.0081005 1.1542071-4.2928577 1.7892379-6.632001 1.8433138-1.1129445.0250791-2.0288731.1253955-2.0288731.1993788 0 .2482831 3.0191719 1.6426811 4.7753539 2.1919134 5.2711557 1.6176019 11.5339149.9204029 16.2348986-1.8433139 3.3401382-1.9687093 6.6815812-5.877287 8.2407473-9.6629771.8415583-2.0176136 1.6831165-5.7029873 1.6831165-7.4723177 0-1.1448609.0743703-1.2940816 1.4600058-2.6646544.8167681-.7962614 1.5839562-1.6677601 1.7326967-1.9172972.2479009-.472741.221806-.472741-1.039879-.0501582-2.1032433.7473572-2.4007244.6482948-1.3608454-.472741.767188-.7975154 1.6831166-2.2420715 1.6831166-2.6646543 0-.0752373-.3718514.0501582-.7919781.2733622-.4462216.249537-1.4352157.6232156-2.1789183.8476735l-1.3360553.4225829-1.2134096-.8213406c-.6667229-.4489158-1.6074416-.946736-2.1019386-1.0959566-1.2629898-.3485995-3.1927025-.2984413-4.3317418.1003164-3.0922374 1.1197818-5.0480449 4.0088941-4.8249341 7.1726225z" fill="#fff"></path></g></svg>Twitter</a>
+                                <a href="https://blog.oceanprotocol.com/" class="sc-cvbbAY bOvJYA" rel="noopener noreferrer" target="_blank"><svg height="25" viewBox="0 0 55 55" width="25"><g fill="none"><rect fill="#141414" height="25" rx="2" width="25"></rect><g fill="#fff" transform="translate(13 15)"><g fill-opacity="0.7"><path d="m19.337.027c-.14-.07-.254 0-.254.157v19.267l8.406 4.218c.418.21.761-.003.761-.472v-18.547c.0004551-.0924982-.0514332-.1773006-.134-.219l-8.779-4.405"></path><path d="m9.917 14.647 9.06-14.503c.0878393-.1335189.2607236-.1817557.405-.113l8.753 4.31c.0518435.0250656.0906021.0709701.1066233.1262815.0160213.0553115.0077975.1148246-.0226233.1637185l-9.092 14.552z"></path><path d="m1.345.125c-.572-.28-.766-.073-.43.461l8.78 13.993 9.388 4.604-9.328-14.867c-.0398554-.0636114-.0966453-.1148608-.164-.148z"></path></g><path d="m9.917 23.194c0 .472-.343.686-.762.475l-7.897-3.98c-.28-.141-.508-.514-.508-.829v-18.49c0-.314.228-.456.508-.316l8.546 4.307c.069.035.113.107.113.185z"></path></g></g></svg>Blog</a>
+                            </aside>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
 
 
     <div class="three-group">
@@ -88,21 +98,21 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="protocol">
                         <a href="#">
-                            <h4>The Ocean Protocol</h4>Learn More<img style="width: 15px; margin-left: 5px;" src="assets/images/featured/right-arrow.svg" alt="featured" />
+                            <h4>Securely share files</h4>Learn More<img style="width: 15px; margin-left: 5px;" src="assets/images/featured/right-arrow.svg" alt="featured" />
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="protocol">
                         <a href="#">
-                            <h4>Dive into the Community</h4>Learn More<img style="width: 15px; margin-left: 5px;" src="assets/images/featured/right-arrow.svg" alt="featured" />
+                            <h4>Full internal messaging system</h4>Learn More<img style="width: 15px; margin-left: 5px;" src="assets/images/featured/right-arrow.svg" alt="featured" />
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="protocol">
                         <a href="#">
-                            <h4>Build with Ocean Prtocol</h4>Learn More<img style="width: 15px; margin-left: 5px;" src="assets/images/featured/right-arrow.svg" alt="featured" />
+                            <h4>Connect to a global network</h4>Learn More<img style="width: 15px; margin-left: 5px;" src="assets/images/featured/right-arrow.svg" alt="featured" />
                         </a>
                     </div>
                 </div>
@@ -114,7 +124,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="text-center">Ocean Token Distribution</h1>
+                    <h1 class="text-center">Agora Science Token Distribution</h1>
                     <div class="text-center">
                         <button type="button" class="btn btn-light btn-heavy">REGISTER WITH COINLIST</button>
                     </div>
@@ -179,7 +189,7 @@
                 <span class="text-center" style="font-size: 14px;margin-bottom: 10px; color: #fffcfccc;">February 9–10, 2019</span>
             </a>
         </div>
-        <div class="text-center">
+        <div class="text-center archive_margin">
             <button type="button" class="btn btn-dark btn-border">View Events Archive</button>
 
         </div>
@@ -215,12 +225,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
                     <div class="text-center">
                         <img src="assets/images/featured-logo/wired.png" alt="featured" />
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
                     <div class="text-center">
                         <img src="assets/images/featured-logo/bloomberg.png" alt="featured" />
                     </div>
@@ -235,10 +245,17 @@
                 <div class="col-lg-6">
                     <h4>Get Involved</h4>
                     <p class="featured_light_text">Newsletter</p>
-                    <form action="#" method="post"><img alt="email" src="assets/images/featured/envelope.svg">
+                    <!-- <form action="#" method="post"><img alt="email" src="assets/images/featured/envelope.svg">
                         <div class="sc-VigVT fFVsiX"><input aria-label="Your Email" name="EMAIL" placeholder="your@email.com" required="" type="email" value="">
                             <button class="sc-dnqmqq TSRiq" type="submit"><span>Subscribe</span></button></div>
+                    </form> -->
+                    <form class="form-inline" action="#" method="post"><img alt="email" src="assets/images/featured/envelope.svg">
+                        <div class="form-group">
+                            <input type="email" class="form-control email_input" id="email" placeholder="your@email.com">
+                        </div>
+                        <button type="submit" class="btn btn-primary email_btn">Subscribe</button>
                     </form>
+
                     <p class="text_small">We will only use your email to send you our newsletter and by submitting this form you give us permission to do so. You can change your mind at any time by clicking the unsubscribe link of any newsletter you receive from us, deleting
                         your data in the process. For more information visit our Privacy Policy.</p>
                     <p class="text_small">We use MailChimp for our newsletter and by submitting this form, you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their Terms and Privacy Policy, And SendGrid in accordance
@@ -258,9 +275,8 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <h4>Ocean Protocol Foundation Ltd.</h4>
-                    <p>Ocean Protocol is supported by a Singapore based non-profit foundation, whose mandate is to ensure open access to the protocol and platform, provide data governance, encourage the network ecosystem growth and take measures to ensure
-                        that the platform becomes ever more decentralized with time.</p>
+                    <h4>Agora Science Ltd.</h4>
+                    <p>Secure your academic publishing pipeline. Integrate Agora Science and revolutionize the scientific method through blockchain technology.</p>
                     <div class="extra_footer">
                         <div><a href="https://agorascience.com/">agorascience.com</a></div>
                         <div>

@@ -1,26 +1,31 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-header {
+.header_main_body {
     background: #141414;
-    margin-bottom: 1px;
-    margin: 10px 15px 0px 15px;
-    padding: 10px;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 10px;
 }
 
 .body-area {
     padding-top: 4rem;
     padding-bottom: 3rem;
-    margin: 0 0px 5px 0px;
+}
+
+header {
+    padding: 10px;
 }
 
 .body-area h1 {
     color: white !important;
     font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 2rem;
-    font-weight: bolder;
+    font-weight: 400;
 }
 
 .body-area p {
@@ -85,6 +90,7 @@ aside a:hover {
 .four-group h1 {
     margin-bottom: 4rem;
     font-size: 2.8rem;
+    font-weight: 300;
 }
 
 .btn-border {
@@ -147,19 +153,22 @@ aside a:hover {
     background-image: url(images/featured/jellyfish.svg);
     background-size: cover;
     padding: 6rem 0rem 3rem 0rem;
-    background-color: rgb(20, 20, 20);
+    background-color: #212529;
     margin: 0 15px 10px 15px;
 }
 
 .five-group h1 {
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
     font-size: 2.8rem;
+    font-weight: 300;
 }
 
 .five-group p {
     color: white;
     margin-bottom: 3rem;
+    font-weight: 200;
+    font-size: 18px;
 }
 
 .scrollmenu {
@@ -175,7 +184,7 @@ aside a:hover {
     padding: 50px 15px;
     text-decoration: none;
     border: 1px solid #b13187;
-    margin: 25px 20px 50px 20px;
+    margin: 20px 10px 50px 10px;
     background: #000c;
 }
 
@@ -189,8 +198,12 @@ aside a:hover {
 }
 
 .featured {
-    padding: 6rem 0.75rem;
+    padding: 4rem 0.75rem;
     margin: 0 15px 10px 15px;
+}
+
+.featured h6 {
+    margin-bottom: 20px;
 }
 
 .featured_light_text {
@@ -218,11 +231,7 @@ aside a:hover {
 
 .footer h4 {
     margin-bottom: 20px;
-    font-weight: 600;
-}
-
-.footer p {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 form {
@@ -232,44 +241,9 @@ form {
 form img {
     position: absolute;
     left: 1rem;
-    top: calc(50% - 0.5rem);
+    top: calc(53% - 0.5rem);
     height: 1rem;
     opacity: 0.7;
-}
-
-.fFVsiX {
-    display: flex !important;
-    max-width: 80%;
-    border-radius: 2px !important;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(31, 157, 217), rgb(0, 203, 251)) repeat scroll 0% 0%;
-}
-
-.fFVsiX input {
-    outline: currentcolor none medium !important;
-    font-size: 0.9rem!important;
-    padding: 0rem 0rem 0rem 3rem!important;
-    margin: 1px!important;
-    background: rgb(23, 25, 26) none repeat scroll 0% 0%!important;
-    color: rgba(255, 255, 255, 0.22) !important;
-    border: medium none!important;
-    min-width: 15rem!important;
-    max-width: 75% !important;
-    border-radius: 2px!important;
-    box-shadow: none!important;
-    transition: all 0.1s ease-out 0s;
-}
-
-.fFVsiX button {
-    color: rgb(255, 255, 255) !important;
-    font-size: 0.9rem !important;
-    text-transform: uppercase !important;
-    margin: 0px !important;
-    padding: 0.50rem 1.1rem !important;
-    background: transparent none repeat scroll 0% 0% !important;
-    width: 25% !important;
-    transition: all 0.1s ease-out 0s !important;
-    cursor: pointer !important;
-    border: 0px !important;
 }
 
 .text_small {
@@ -288,4 +262,31 @@ form img {
 
 .extra_footer a {
     color: #00cbfb;
+}
+
+.extra_footer a:hover {
+    text-decoration: none;
+    color: #00cbfb;
+    padding-bottom: 5px;
+}
+
+.footer p {
+    font-weight: 200;
+}
+
+.email_input {
+    padding: 20px 35px !important;
+    background: rgb(23, 25, 26) none repeat scroll 0% 0% !important;
+    border-radius: 0 !important;
+    border: 2px solid rgb(123, 17, 115) !important;
+    color: #8793a4 !important;
+}
+
+.email_btn {
+    border-radius: 0 !important;
+    background: rgb(123, 17, 115) !important;
+    border: 2px solid rgb(123, 17, 115) !important;
+    padding: 8px 20px !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
 }
