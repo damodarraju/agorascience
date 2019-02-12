@@ -1,0 +1,307 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background: #141414;
+    margin-bottom: 1px;
+    margin: 10px 15px 0px 15px;
+    padding: 10px;
+}
+
+.body-area {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin: 0 0px 5px 0px;
+    position: relative;
+}
+
+.body-area h1 {
+    color: white !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.body-area p {
+    color: white !important;
+    margin-bottom: 2rem;
+}
+
+.header-logo {
+    width: 65px;
+}
+
+.nav-link {
+    color: #b0b0b0 !important;
+    text-transform: uppercase;
+    border-bottom: 4px solid #b0b0b0;
+    font-weight: 700;
+}
+
+.embed-responsive {
+    border: 4px solid white;
+    margin-top: 15px;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.three-group {
+    margin: 0 0px 10px 0px;
+}
+
+.protocol {
+    background-image: url(images/featured/jellyfish.svg);
+    background-size: cover;
+    background-color: rgb(23, 25, 26);
+    padding: 5rem 2rem 5rem;
+    margin-top: 5px;
+}
+
+.protocol h4 {
+    color: white !important;
+    margin-bottom: 25px;
+}
+
+.protocol a {
+    color: #00cbfb;
+}
+
+.protocol a:hover {
+    text-decoration: none;
+    color: #00cbfb;
+}
+
+.four-group {
+    padding: 6rem 0.75rem;
+    background-color: rgb(20, 17, 39);
+    color: white;
+    margin: 0 15px 10px 15px;
+}
+
+.four-group h1 {
+    margin-bottom: 4rem;
+    font-size: 2.8rem;
+}
+
+.btn-border {
+    color: #b0b0b0 !important;
+    background: #000c !important;
+    border: 1px solid #b13187 !important;
+    border-radius: 2px !important;
+    margin-top: 40px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-light {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(123, 17, 115), rgb(246, 56, 138)) repeat scroll 0% 0%;
+    margin: auto;
+    max-width: 20rem;
+    text-align: center;
+    padding: 0.7rem 2rem !important;
+    font-size: 13px !important;
+    border-radius: 2px !important;
+    text-transform: uppercase;
+    color: white !important;
+    border: 0px !important;
+    font-weight: bold !important;
+}
+
+.btn-heavy {
+    padding: 15px 50px !important;
+    font-size: 15px !important;
+}
+
+.btn-dark {
+    background: rgba(65, 71, 78, 0.95) none repeat scroll 0% 0%;
+    margin: auto;
+    max-width: 20rem;
+    text-align: center;
+    padding: 0.7rem 2rem !important;
+    font-size: 13px !important;
+    border-radius: 2px !important;
+    text-transform: uppercase;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+}
+
+.bOvJYA {
+    padding: 0.5rem 1rem;
+    margin: 1% 0px 1% 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.hISxaS {
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+.five-group {
+    background-image: url(images/featured/jellyfish.svg);
+    background-size: cover;
+    padding: 6rem 0rem 3rem 0rem;
+    background-color: rgb(20, 20, 20);
+    margin: 0 15px 10px 15px;
+}
+
+.five-group h1 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+}
+
+.five-group p {
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0 40px;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 50px 15px;
+    text-decoration: none;
+    border: 1px solid #b13187;
+    margin: 25px 20px 50px 20px;
+    background: #000c;
+}
+
+.scrollmenu a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.scrollmenu span {
+    display: block;
+}
+
+.featured {
+    padding: 6rem 0.75rem;
+    margin: 0 15px 10px 15px;
+}
+
+.featured_light_text {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    color: #8b98a9;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.featured_light_weight_text {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    color: #8b98a9;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.footer {
+    padding: 6rem 0.75rem;
+    margin: 0 15px 10px 15px;
+    background-color: rgb(65, 71, 78);
+    color: white;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer p {
+    font-weight: 500;
+}
+
+form {
+    position: relative;
+}
+
+form img {
+    position: absolute;
+    left: 1rem;
+    top: calc(50% - 0.5rem);
+    height: 1rem;
+    opacity: 0.7;
+}
+
+.fFVsiX {
+    display: flex !important;
+    max-width: 80%;
+    border-radius: 2px !important;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(31, 157, 217), rgb(0, 203, 251)) repeat scroll 0% 0%;
+}
+
+.fFVsiX input {
+    outline: currentcolor none medium !important;
+    font-size: 0.9rem!important;
+    padding: 0rem 0rem 0rem 3rem!important;
+    margin: 1px!important;
+    background: rgb(23, 25, 26) none repeat scroll 0% 0%!important;
+    color: rgba(255, 255, 255, 0.22) !important;
+    border: medium none!important;
+    min-width: 15rem!important;
+    max-width: 75% !important;
+    border-radius: 2px!important;
+    box-shadow: none!important;
+    transition: all 0.1s ease-out 0s;
+}
+
+.fFVsiX button {
+    color: rgb(255, 255, 255) !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+    margin: 0px !important;
+    padding: 0.50rem 1.1rem !important;
+    background: transparent none repeat scroll 0% 0% !important;
+    width: 25% !important;
+    transition: all 0.1s ease-out 0s !important;
+    cursor: pointer !important;
+    border: 0px !important;
+}
+
+.text_small {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    color: rgba(226, 226, 226, 0.7);
+}
+
+.extra_footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+.extra_footer a {
+    color: #00cbfb;
+}
+
+.fullscreen-bg {
+    margin: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    margin-top: 1px;
+}
+
+#myVideo {
+    height: 100%;
+}
