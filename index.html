@@ -21,6 +21,7 @@
 <body>
 
     <div class="header_main_body">
+      <div class="overlay">
         <header>
             <div class="container-fluid">
                 <div class="row">
@@ -57,17 +58,15 @@
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-6 col-sm-12">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FEeicvNSyk4" allowfullscreen></iframe>
-                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/FEeicvNSyk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="video">
+                              <video width="600" controls="false"><source src="assets/web_video.mp4" type="video/mp4"></video>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </main>
+      </div>
     </div>
 
     <div class="featured_content">
@@ -407,17 +406,29 @@
         </div>
     </div> -->
 
-
-
-
-
-
     <!-- Optional JavaScript -->
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
     <script src="assets/bootstrap/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
+    <!-- <script>
+    var vids = $("video");
+$.each(vids, function(){
+       this.controls = false;
+});
+//Loop though all Video tags and set Controls as false
+
+$("video").click(function() {
+  //console.log(this);
+  if (this.paused) {
+    this.play();
+  } else {
+    this.pause();
+  }
+});
+    </script> -->
 </body>
 
 </html>
