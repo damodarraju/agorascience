@@ -7,7 +7,8 @@ body {
 }
 
 .header_main_body {
-    background: rgb(19, 19, 19);
+    /* background: rgb(19, 19, 19); */
+    background: #003140;
     min-height: 100vh;
     margin: 10px;
 }
@@ -42,7 +43,7 @@ header {
 }
 
 .nav-link {
-    color: #b0b0b0 !important;
+    color: #fcfcfc !important;
     text-transform: capitalize;
     font-weight: 400;
 }
@@ -105,9 +106,16 @@ aside a:hover {
     font-weight: 400 !important;
     text-transform: uppercase !important;
 }
-
+.btn-dark {
+  /* background-color: #00617F !important;
+  border-color: #00617F !important; */
+    background: #005E7B !important;
+    border: #005E7B !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.11);
+}
 .btn-light {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(123, 17, 115), rgb(246, 56, 138)) repeat scroll 0% 0%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 92, 127), rgb(0, 191, 250)) repeat scroll 0% 0%;
+    /* background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 120, 150), rgb(0, 160, 320)) repeat scroll 0% 0%; */
     margin: auto;
     max-width: 20rem;
     text-align: center;
@@ -118,6 +126,15 @@ aside a:hover {
     color: white !important;
     border: 0px !important;
     font-weight: bold !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.11);
+}
+.btn-light:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s ease 0s;
+}
+.btn-dark:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.55);
+  transition: all 0.3s ease 0s;
 }
 
 .btn-heavy {
@@ -213,7 +230,7 @@ aside a:hover {
 .footer {
     padding: 6rem 0.75rem;
     margin: 0 15px 10px 15px;
-    background-color: rgb(65, 71, 78);
+    background-color: #003140;
     color: white;
 }
 
@@ -249,7 +266,7 @@ form img {
 }
 
 .extra_footer a {
-    color: #00cbfb;
+    color: #00AFE5;
 }
 
 .extra_footer a:hover {
@@ -266,14 +283,14 @@ form img {
     padding: 20px 35px !important;
     background: rgb(23, 25, 26) none repeat scroll 0% 0% !important;
     border-radius: 0 !important;
-    border: 2px solid rgb(123, 17, 115) !important;
+    border: 2px solid #005E7B !important;
     color: #8793a4 !important;
 }
 
 .email_btn {
     border-radius: 0 !important;
-    background: rgb(123, 17, 115) !important;
-    border: 2px solid rgb(123, 17, 115) !important;
+    background: #005E7B !important;
+    border: 2px solid #005E7B !important;
     padding: 8px 20px !important;
     text-transform: uppercase !important;
     font-weight: 400 !important;
@@ -316,7 +333,7 @@ form img {
 }
 
 .featured_content h4 {
-    color: #1ea4c3;
+    color: #003140;
     font-weight: 400;
 }
 
@@ -351,7 +368,7 @@ form img {
 }
 
 .feature_box_content h5 {
-    color: #8b98a9;
+    color: #00617F;
     font-weight: bold;
     font-size: 18px;
 }
