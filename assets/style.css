@@ -7,9 +7,13 @@ body {
 }
 
 .header_main_body {
-    background: #141414;
+    background: rgb(19, 19, 19);
     min-height: 100vh;
     margin: 10px;
+}
+
+main {
+    background-image: url('images/featured-content/background.png');
 }
 
 .body-area {
@@ -39,9 +43,8 @@ header {
 
 .nav-link {
     color: #b0b0b0 !important;
-    text-transform: uppercase;
-    border-bottom: 4px solid #b0b0b0;
-    font-weight: 700;
+    text-transform: capitalize;
+    font-weight: 400;
 }
 
 .embed-responsive {
@@ -150,25 +153,10 @@ aside a:hover {
 }
 
 .five-group {
-    background-image: url(images/featured/jellyfish.svg);
     background-size: cover;
     padding: 6rem 0rem 3rem 0rem;
     background-color: #212529;
     margin: 0 15px 10px 15px;
-}
-
-.five-group h1 {
-    color: white;
-    margin-bottom: 1.6rem;
-    font-size: 2.8rem;
-    font-weight: 300;
-}
-
-.five-group p {
-    color: white;
-    margin-bottom: 3rem;
-    font-weight: 200;
-    font-size: 18px;
 }
 
 .scrollmenu {
@@ -306,4 +294,88 @@ form img {
     color: #8b98a9;
     ;
     text-decoration: none;
+}
+
+.featured_content {
+    padding: 4rem 0;
+    background-color: #f6f9fc;
+    margin: 0 15px 10px 15px;
+}
+
+.featured_content p {
+    font-weight: 300;
+    color: #131313;
+}
+
+.featured_content img {
+    width: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 35px rgba(140, 152, 164, .125) !important;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.featured_content h4 {
+    color: #1ea4c3;
+    font-weight: 400;
+}
+
+.feature_box {
+    display: flex;
+}
+
+.feature_box img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.content_section_network {
+    padding: 4rem 0;
+    background-color: #212529;
+    margin: 0 15px 10px 15px;
+}
+
+.content_section_network h1 {
+    margin-bottom: 1.6rem;
+    color: #d4d4d4;
+}
+
+.content_section_network p {
+    margin-bottom: 4rem;
+    color: #a79e9e;
+}
+
+.feature_box_content {
+    padding: 10px;
+}
+
+.feature_box_content h5 {
+    color: #8b98a9;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.feature_box_content p {
+    font-weight: 200;
+    margin-bottom: 0px !important;
+}
+
+.feature_box_background img {
+    max-width: 100% !important;
+    /* transform: rotate(30deg); */
+}
+
+.contact {
+    padding: 4rem 0;
+    margin: 0 15px 10px 15px;
+}
+
+.contact h1 {
+    margin-bottom: 5rem;
+}
+
+.contact .list-group-item {
+    padding-left: 0 !important;
+    border: 0 !important;
 }

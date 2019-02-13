@@ -3,6 +3,9 @@
         margin: 10px 0 !important;
         width: 100%;
     }
+    header {
+      text-align: center;
+    }
     .body-area h1 {
         font-size: 26px;
     }
@@ -26,7 +29,7 @@
         max-width: 100%;
     }
     .form-group {
-        margin-bottom: 0rem !important;
+        margin-bottom: 1rem !important;
     }
     .email_input {
         font-size: 12px !important;
