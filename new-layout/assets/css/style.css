@@ -1,0 +1,15 @@
+.section-hero {
+  /* background-image: url(../img/backgrounds/background.gif); */
+  background: black;
+}
+.text-primary {
+    color: white !important;
+}
+.video {
+    margin-top: 20px;
+}
+video {
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 2px;
+}
