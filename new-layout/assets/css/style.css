@@ -13,3 +13,9 @@ video {
     border: 4px solid white;
     border-radius: 2px;
 }
+a.globalFooterCard, div.globalFooterCard {
+    padding-left: 120px;
+}
+.text-muted-2 {
+    color: #798898;
+}
