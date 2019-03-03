@@ -1,0 +1,52 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .btn {
+        margin: 10px 0 !important;
+        width: 100%;
+    }
+    header {
+      text-align: center;
+    }
+    .body-area h1 {
+        font-size: 26px;
+    }
+    .four-group h1 {
+        font-size: 26px;
+        margin-bottom: 2rem;
+    }
+    .btn-heavy {
+        padding: 15px 20px !important;
+    }
+    .five-group h1 {
+        font-size: 28px;
+    }
+    .archive_margin {
+        margin: 30px 30px 0px 30px;
+    }
+    .scrollmenu a {
+        margin: 25px 10px 50px 4px;
+    }
+    .featured img {
+        max-width: 100%;
+    }
+    .form-group {
+        margin-bottom: 1rem !important;
+    }
+    .email_input {
+        font-size: 12px !important;
+    }
+    form img {
+        position: absolute;
+        left: 1rem;
+        top: calc(28% - 0.5rem);
+        height: 1rem;
+        opacity: 0.7;
+    }
+    .email_btn {
+        margin: 0 !important;
+        padding: 5px 20px !important;
+        font-size: 14px !important;
+    }
+    .email_input {
+        padding: 20px 39px !important;
+    }
+}
