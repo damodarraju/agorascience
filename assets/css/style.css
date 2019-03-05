@@ -1,3 +1,9 @@
+.section-shaped {
+  background-image: url(../img/backgrounds/background.gif) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  /* background-position: center; */
+}
 .video {
     margin-top: 20px;
 }
@@ -29,16 +35,28 @@ a.globalFooterCard, div.globalFooterCard {
   padding: 0 20px;
   width: 100%;
 }
-
 .nav-sidebar-links {
   color: #413f5a;
   margin-right: 10px;
   cursor: auto;
 }
 .nav-link {
-  color: white !important;
+  /* color: white !important; */
   text-transform: capitalize;
 }
+.works-how {
+  padding-top: 0 !important;
+}
+.works-how .nav-link {
+  /* color: #34495e !important; */
+  margin: 10px 0;
+}
+/* .works-how .nav-link:active {
+  color: #FFF !important;
+}
+.works-how .nav-link:focus {
+  color: #FFF !important;
+} */
 .display-3 {
   font-size: 36px !important;
 }
@@ -82,13 +100,27 @@ h3 {
   border-bottom: 2px solid #f4f5f7 !important;
   margin-bottom: 40px !important;
 }
+.br-bottom-nomargin {
+  border-bottom: 2px solid #f4f5f7 !important;
+}
+.br-bottom-noborder {
+  margin-bottom: 40px !important;
+}
 .br-right {
-    padding: 80px 80px 80px 0;
+    padding: 60px 60px 60px 0;
     border-right: 1px solid #f4f5f7;
 }
+.br-right-padding {
+  padding: 40px 40px 40px 0;
+  border-right: 1px solid #f4f5f7;
+}
 .br-left {
-    padding: 80px 0px 80px 80px;
+    padding: 60px 0px 60px 60px;
     border-left: 1px solid #f4f5f7;
+}
+.br-left-padding {
+  padding: 40px 0px 40px 40px;
+  border-left: 1px solid #f4f5f7;
 }
 .section-nucleo-icons .icons-container {
   height: inherit !important;
@@ -105,4 +137,127 @@ h3 {
 }
 .team-title {
   margin-bottom: 20px;
+}
+.team {
+  margin: 80px 0;
+}
+.team-main-title {
+  margin-bottom: 20px;
+}
+.margin-tb-2 {
+  margin: 2rem 0 !important;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.team p {
+  margin-bottom: 5px;
+}
+.network-team {
+  padding: 70px 70px !important;
+}
+#heavy-padding {
+  padding: 70px 70px;
+}
+.open-positions {
+  margin: 40px 0;
+}
+.btn-link {
+  text-transform: capitalize !important;
+}
+.card-button {
+    margin-top: 20px;
+}
+.wid-left {
+  width: 100%;
+  text-align: left !important;
+}
+.mt-2 {
+  margin-top:2rem;
+}
+.register-footer {
+  padding: 30px 0;
+}
+.register {
+  padding: 60px 0!important;
+}
+.sign-text {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+/* Checout styles */
+.left-price {
+  background: white;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.price-title {
+  padding: 30px 10px 10px 10px;
+  text-align: center;
+  border-bottom: 2px solid #f6f9fc;
+}
+.price-title h5 {
+  color: #24b47e !important;
+  font-size: 18px;
+}
+.price-body {
+  padding: 25px 48px;
+}
+.price-body p, h2, small {
+  text-align: center;
+  display: block;
+  font-weight: 200;
+}
+.price-button {
+  background: #e6ebf1;
+  padding: 25px;
+  text-align: center;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.right-price {
+  background: #32325d;
+  color: #fff !important;
+  margin-top: 15px;
+  font-weight: 300 !important;
+}
+.right-price .price-title {
+  border-bottom: 1px solid #87bbfd80;
+}
+.right-price h5 {
+  color: #fff !important;
+}
+.right-price h6 {
+  color: #fff !important;
+  text-align: center;
+}
+.right-price .price-button {
+  background: rgba(85,90,191,.35);
+}
+.right-price .price-button {
+  color: #87bbfd;
+}
+.right-price .price-body h2 {
+  color: white;
+}
+.right-price .price-body p {
+  color: #aab7c4;
+}
+.right-price .price-body h2 {
+  margin-bottom: 20px;
+}
+td {
+  text-align: center;
+  font-size: 14px;'
+  font-weight: 100;
+}
+.price-button {
+  display: block;
+  font-weight: 400;
+}
+.open-positions .card-header {
+  text-align: left !important;
 }

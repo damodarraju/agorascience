@@ -15,12 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-.section-shaped {
-  background-image: url(../img/backgrounds/background.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center; */
-}
+
 :root
 {
     --blue: #5e72e4;
