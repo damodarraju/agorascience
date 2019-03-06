@@ -343,3 +343,29 @@ td {
   transform: translate3d(-50%, -50%, 0);
   text-align: center;
 }
+
+.new-pill {
+  font-size: 12px !important;
+  padding: 0 6px;
+  background: #24b47e;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.announcement {
+  font-size: 12px;
+  background: #000327;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+.announcement:hover {
+  color: white;
+}
+.announcement i {
+  margin: 0 5px;
+}
+.ann-row {
+  margin-bottom: 50px;
+}
