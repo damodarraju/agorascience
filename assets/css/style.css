@@ -261,3 +261,18 @@ td {
 .open-positions .card-header {
   text-align: left !important;
 }
+.positions td {
+  text-align: left !important;
+}
+.positions i {
+  font-size: 12px !important;
+}
+.positions a {
+  display: block;
+}
+.positions .table th, .table td {
+  border: 0 !important;
+}
+.positions .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgb(246, 249, 252);
+}
