@@ -276,3 +276,67 @@ td {
 .positions .table-striped tbody tr:nth-of-type(2n+1) {
     background-color: rgb(246, 249, 252);
 }
+
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+
+.clr-white {
+  color: #FFF;
+  font-size: 42px !important;
+  font-weight: 400;
+}
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #FFF;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #0c1127;
+  background-image: url('../img/backgrounds/dots-bg.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#particles-js .container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+}
