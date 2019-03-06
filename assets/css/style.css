@@ -1,5 +1,8 @@
 .section-shaped {
-  background-image: url(../img/backgrounds/background.gif) !important;
+  /* background-image: url(../img/backgrounds/background.gif) !important; */
+  background-image: url(../img/brains-picks/11.png) !important;
+
+
   background-repeat: no-repeat !important;
   background-size: cover !important;
   /* background-position: center; */
@@ -84,9 +87,9 @@ h3 {
 .main-color {
   color: #172b4d !important;
 }
-.main-container {
+/* .main-container {
   max-width: 880px !important;
-}
+} */
 .link-colors {
   color: #027bce !important;
 }
