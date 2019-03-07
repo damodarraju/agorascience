@@ -1,7 +1,7 @@
 .section-shaped {
   /* background-image: url(../img/backgrounds/background.gif) !important; */
-  background-image: url(../img/brains-picks/11.png) !important;
-
+  /* background-image: url(../img/brains-picks/11.png) !important; */
+background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgb(2, 6, 18) ), url(file:///Users/rajugundu/Documents/Documents/Agora%20Science/Remote%20Repo/agora%20website/assets/img/brains-picks/14.gif) !important;
 
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -354,7 +354,7 @@ td {
 }
 .announcement {
   font-size: 12px;
-  background: #000327;
+  background: #343435;
   color: white;
   padding: 5px 5px;
   border-radius: 50px;
