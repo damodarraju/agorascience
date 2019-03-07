@@ -54,12 +54,9 @@ a.globalFooterCard, div.globalFooterCard {
   /* color: #34495e !important; */
   margin: 10px 0;
 }
-/* .works-how .nav-link:active {
-  color: #FFF !important;
+.navbar-nav a:hover {
+  cursor: pointer;
 }
-.works-how .nav-link:focus {
-  color: #FFF !important;
-} */
 .display-3 {
   font-size: 36px !important;
 }
@@ -338,20 +335,24 @@ td a:hover {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
 
 #particles-js .container {
   position: absolute;
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  text-align: center;
+  left: 50%; */
+  /* transform: translate3d(-50%, -50%, 0);
+  text-align: center; */
 }
 
 .new-pill {
-  font-size: 12px !important;
-  padding: 0 6px;
+  font-size: 10px !important;
+  padding: 2px 6px;
   background: #24b47e;
   text-transform: uppercase;
   border-radius: 10px;
@@ -361,9 +362,9 @@ td a:hover {
   font-size: 12px;
   background: #343435;
   color: white;
-  padding: 5px 5px;
+  padding: 4px 5px;
   border-radius: 50px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 .announcement:hover {
   color: white;
@@ -416,4 +417,10 @@ td a:hover {
 }
 .open-positions a:hover {
   color: #32325d;
+}
+.wh-clr {
+  color: white !important;
+}
+.wh-clr-bold {
+  color: white !important;
 }
