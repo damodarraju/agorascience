@@ -1,7 +1,7 @@
 {
   "name": "Agora Science LLC",
   "version": "1.0.1",
-  "description": "Agora Science",
+  "description": "The Future of Decentralized Computing",
   "main": "gulpfile.js",
   "author": "Agora Science",
   "scripts": {
@@ -35,12 +35,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system/issues"
+    "url": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system.git"
+    "url": "git+https://github.com/damodarraju/agorascience.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+  "homepage": ""
 }

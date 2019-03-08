@@ -1,12 +1,12 @@
 {
-  "name": "creativetimofficial/argon-design-system",
-  "description": "A beautiful Design System for Bootstrap 4. It's Free and Open Source.",
-  "type": "project",
+  "name": "Agora Science",
+  "description": "The Future of Decentralized Computing",
+  "type": "Main Website",
   "license": "MIT",
   "authors": [
     {
-      "name": "Creative Tim",
-      "email": "support@creative-tim.com"
+      "name": "Agora Science",
+      "email": "info@agorascience.com"
     }
   ],
   "require": {}
