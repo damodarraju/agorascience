@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#172B4D" fill-rule="nonzero" cx="30" cy="29" r="29"></circle>
+        <g id="Group" transform="translate(14.000000, 13.000000)" fill="#FFFFFF">
+            <path d="M-2.67446433,15.8037914 C-2.67446433,13.0423676 -0.444097728,10.8037914 2.32997122,10.8037914 L22.3211001,10.8037914 C25.0849736,10.8037914 27.3255357,13.0479866 27.3255357,15.8037914 L27.3255357,15.8037914 C27.3255357,18.5652151 25.0951691,20.8037914 22.3211001,20.8037914 L2.32997122,20.8037914 C-0.433902212,20.8037914 -2.67446433,18.5595962 -2.67446433,15.8037914 L-2.67446433,15.8037914 Z" id="Rectangle" transform="translate(12.325536, 15.803791) rotate(-60.000000) translate(-12.325536, -15.803791) "></path>
+            <circle id="Oval" cx="27" cy="23" r="6"></circle>
+        </g>
+    </g>
+</svg>

@@ -445,20 +445,34 @@ canvas {
   color: #0009;;
 }
 
+.chart {
+    position: relative;
+    height: 350px;
+}
+.br-radius {
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+}
+
 @media only screen and (max-width: 768px) {
   #center-padding {
     padding: 20px 20px;
   }
   .br-right {
     padding: 60px 20px;
-    border-bottom: 1px solid #f4f5f7;
+    border-bottom: 0;
+    border-right: 0;
   }
   .br-left {
     padding: 60px 20px;
-    border-top: 1px solid #f4f5f7;
+    border-top: 0;
+    border-left: 0;
   }
   .display-3 {
-    font-size: 28px;
+    font-size: 28px !important;
+  }
+  .price-body {
+    padding: 25px 5px;
   }
   .order-xs-first
   {
@@ -520,4 +534,80 @@ canvas {
   {
       order: 12;
   }
+  .justify-content-end {
+    justify-content: center !important;
+  }
+  #heavy-padding {
+    padding: 50px 15px;
+  }
+}
+
+timeline {
+  width: 100%;
+  position: relative;
+  perspective: 5000px;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    background-color: $gray;
+    border-radius: 15px;
+    top: 76px;
+  }
+
+  .timeline-item {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+    &:hover {
+
+      &:after {
+        transform: scale(1.5, 1.5);
+      }
+
+    }
+
+    &.selected {
+
+      &:after {
+        background-color: $blue;
+        border: 5px solid $lightBlue;
+        transform: scale(1.5, 1.5);
+      }
+
+    }
+
+    &:after {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 69px;
+      left: 50%;
+      margin-left: -15px;
+      background-color: $lightGray;
+      border: 5px solid $gray;
+      content: "";
+      border-radius: 50%;
+      transition: transform .5s ease;
+    }
+    .timeline-content {
+      position: absolute;
+      top: -300px;
+      display: none;
+      width: 350px;
+      left: -60px;
+      cursor: auto;
+      &.fadeIn {
+        animation-delay: .2s;
+      }
+      &.animated {
+        display: block;
+      }
+    }
+  }
+
 }
