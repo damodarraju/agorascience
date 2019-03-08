@@ -22,68 +22,12 @@
 </head>
 
 <body>
-  <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
-    <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
-      <div class="modal-content">
-        <div class="modal-body p-0">
-          <div class="card bg-secondary shadow border-0">
-            <div class="card-header bg-white pb-5">
-              <div class="text-muted text-center mb-3">
-                <small>Sign in with</small>
-              </div>
-              <div class="btn-wrapper text-center">
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <span class="btn-inner--icon">
-                    <img src="./assets/img/icons/common/github.svg">
-                  </span>
-                  <span class="btn-inner--text">Github</span>
-                </a>
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <span class="btn-inner--icon">
-                    <img src="./assets/img/icons/common/google.svg">
-                  </span>
-                  <span class="btn-inner--text">Google</span>
-                </a>
-              </div>
-            </div>
-            <div class="card-body px-lg-5 py-lg-5">
-              <div class="text-center text-muted mb-4">
-                <small>Or sign in with credentials</small>
-              </div>
-              <form role="form">
-                <div class="form-group mb-3">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Email" type="email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Password" type="password">
-                  </div>
-                </div>
-                <div class="custom-control custom-control-alternative custom-checkbox">
-                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
-                  <label class="custom-control-label" for=" customCheckLogin">
-                    <span>Remember me</span>
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Sign in</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <header class="header-global">
+
+
+
+
+
+  <!-- <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container-fluid">
         <a class="navbar-brand mr-lg-5" href="./index.html">
@@ -95,12 +39,12 @@
         <div class="navbar-collapse collapse" id="navbar_global">
           <div class="navbar-collapse-header">
             <div class="row">
-              <div class="col-10 collapse-brand">
+              <div class="col-6 collapse-brand">
                 <a href="./index.html">
-                  <img src="./assets/img/brand/collapse_agora_blue.png" style="width: 200px; height: 28px">
+                  <img src="./assets/img/brand/white.png">
                 </a>
               </div>
-              <div class="col-2 collapse-close">
+              <div class="col-6 collapse-close">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                   <span></span>
                   <span></span>
@@ -110,21 +54,18 @@
           </div>
           <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
             <li>
-              <a class="nav-link" href="./shop.html">Products</a>
+              <a class="nav-link" href="#">Global</a>
             </li>
             <li>
-              <a class="nav-link" href="./mission.html">Mission</a>
+              <a class="nav-link" href="#">Token</a>
             </li>
             <li>
-              <a class="nav-link" href="./jobs.html">Jobs</a>
-            </li>
-            <li>
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li>
-              <a class="nav-link" data-toggle="modal" data-target="#modal-form">Login
+              <a class="nav-link" href="#">Login
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
               </a>
             </li>
@@ -135,10 +76,79 @@
         </div>
       </div>
     </nav>
-  </header>
+  </header> -->
   <main>
-    <div class="position-relative">
-      <!-- shape Hero -->
+    <div id="large-header" class="large-header">
+      <header class="header-global">
+        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+          <div class="container-fluid">
+            <a class="navbar-brand mr-lg-5" href="./index.html">
+              <img src="./assets/img/brand/white.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar_global">
+              <div class="navbar-collapse-header">
+                <div class="row">
+                  <div class="col-6 collapse-brand">
+                    <a href="./index.html">
+                      <img src="./assets/img/brand/white.png">
+                    </a>
+                  </div>
+                  <div class="col-6 collapse-close">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                      <span></span>
+                      <span></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                <li>
+                  <a class="nav-link" href="#">Global</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Token</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+                <li>
+                  <a class="nav-link" href="#">Login
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <button class="btn btn-1 btn-neutral" type="button">Register</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+       <canvas id="demo-canvas"></canvas>
+       <div class="main-title container">
+         <div class="row justify-content-md-center">
+             <div class="col-lg-10" style="padding: 4rem 0;">
+               <h1 class="display-3 clr-white">The Future of Decentralized Computing </h1>
+               <p style="font-weight: 200;margin-top: 20px;margin-bottom: 40px;">
+                 Agora Science is developing the world’s first DNA powered decentralized supercomputer. We utilize technologies such as quantum computing, blockchain, CRISPR and AI to optimize the efficiency of our network and to provide the world with the democratized engine for Web3.0.                 </p>
+                 <div class="btn-wrapper">
+                   <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="btn btn-info btn-icon mb-3 mb-sm-0">
+                     <span class="btn-inner--text">Explore the Platform</span>
+                   </a>
+                   <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-white btn-icon mb-3 mb-sm-0">
+                     <span class="btn-inner--text">Early Access</span>
+                   </a>
+                 </div>
+             </div>
+         </div>
+       </div>
+    </div>
+    <!-- <div class="position-relative">
       <section class="section section-lg section-shaped pb-250">
         <div class="shape shape-style-1 shape-default">
           <span></span>
@@ -153,23 +163,14 @@
         </div>
         <div class="container py-lg-md d-flex main-container">
           <div class="col px-0">
-            <div class="row ann-row">
-              <div class="col-lg-4">
-                <a class="announcement" href="/platform">
-                  <span class="new-pill">New</span>
-                  <span class="message">Introducing DNA File Storage</span>
-                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
             <div class="row">
-              <div class="col-lg-12">
-                <h1 class="display-3 text-white">The Future of Decentralized Computing
+              <div class="col-lg-12 text-center">
+                <h1 class="display-3  text-white">The Future of Decentralized Computing
                 </h1>
                 <p class="lead  text-white">Agora Science is developing the world’s first DNA powered decentralized supercomputer. We utilize technologies such as quantum computing, blockchain, CRISPR and AI to optimize the efficiency of our network and to provide the world with the democratized engine for Web3.0.</p>
                 <div class="btn-wrapper">
                   <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="btn btn-info btn-icon mb-3 mb-sm-0">
-                    <span class="btn-inner--text">Platform</span>
+                    <span class="btn-inner--text">Explore the Platform</span>
                   </a>
                   <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--text">Early Access</span>
@@ -179,16 +180,14 @@
             </div>
           </div>
         </div>
-        <!-- SVG separator -->
         <div class="separator separator-bottom separator-skew">
           <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
       </section>
-      <!-- 1st Hero Variation -->
-    </div>
-    <section class="section section-lg pt-lg-0 mt--200">
+    </div> -->
+    <!-- <section class="section section-lg pt-lg-0 mt--200">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-12">
@@ -199,8 +198,8 @@
                     <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
                       <i class="fa fa-shield" aria-hidden="true"></i>
                     </div>
-                    <h6 class="text-primary text-uppercase">Data Storage & Computation</h6>
-                    <p class="description mt-3">Secure enterprise data with our revolutionary decentralized network. Our network is cheaper, faster and more secure than existing solutions</p>
+                    <h6 class="text-primary text-uppercase">Secure your data and work</h6>
+                    <p class="description mt-3">Our novel blockchain powered stamping feature allows all iterations and actions done with your work to be securely time stamped and protected</p>
                     <a href="#" class="btn btn-primary mt-4">Learn more</a>
                   </div>
                 </div>
@@ -211,8 +210,8 @@
                     <div class="icon icon-shape icon-shape-success rounded-circle mb-4">
                       <i class="fa fa-connectdevelop" aria-hidden="true"></i>
                     </div>
-                    <h6 class="text-success text-uppercase">Agora Science Ecosystem</h6>
-                    <p class="description mt-3">Our network fosters innovation and thus allows for a full range of use cases. We encourge outside development and ecosystem building.</p>
+                    <h6 class="text-success text-uppercase">Connect with collaborators</h6>
+                    <p class="description mt-3">Utilizing our social networking components, connect more easily with research collaborators, form faster relationships and accelerate your research</p>
                     <a href="#" class="btn btn-success mt-4">Learn more</a>
                   </div>
                 </div>
@@ -223,8 +222,8 @@
                     <div class="icon icon-shape icon-shape-warning rounded-circle mb-4">
                       <i class="fa fa-picture-o" aria-hidden="true"></i>
                     </div>
-                    <h6 class="text-warning text-uppercase">Incentivization</h6>
-                    <p class="description mt-3">Blockchain microtransactions, powered by ethereum, allow network members to profit as a result of their shared computing resources</p>
+                    <h6 class="text-warning text-uppercase">Securely present research</h6>
+                    <p class="description mt-3">Through our novel blockchain implementation, confidently share your research with the world and increase transparency within academic research</p>
                     <a href="#" class="btn btn-warning mt-4">Learn more</a>
                   </div>
                 </div>
@@ -233,12 +232,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
       <section class="section bg-secondary">
         <div class="container-fluid">
           <div class="row row-grid align-items-center">
-            <div class="col-md-6 col-sm-6 order-md-1 order-sm-2 order-xs-1" id="center-padding">
+            <div class="col-md-6" id="center-padding">
               <div>
                 <h3 class="items-colors">Decentralized Bio-Quantum Supercomputer.</h3>
                 <p class="container-text-color">
@@ -246,7 +245,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 order-md-1 order-sm-1 order-xs-2 no-padding">
+            <div class="col-md-6">
                 <img src="./assets/img/theme/section1.jpg" class="img-fluid">
             </div>
           </div>
@@ -256,10 +255,10 @@
       <section class="section bg-secondary">
         <div class="container-fluid">
           <div class="row row-grid align-items-center">
-            <div class="col-md-6 col-sm-6 order-sm-1 col-xs-last no-padding">
+            <div class="col-md-6">
                 <img src="./assets/img/theme/section2.jpg" class="img-fluid">
             </div>
-            <div class="col-md-6 col-sm-6 order-sm-1 order-xs-first" id="center-padding">
+            <div class="col-md-6" id="center-padding">
               <div>
                 <h3 class="items-colors">DNA Data Storage.</h3>
                 <p class="container-text-color">
@@ -275,7 +274,8 @@
       <section class="section bg-secondary">
         <div class="container-fluid">
           <div class="row row-grid align-items-center">
-            <div class="col-md-6 col-sm-6 order-md-1 order-xs-1" id="center-padding">
+
+            <div class="col-md-6" id="center-padding">
               <div>
                 <h3 class="items-colors">Research.</h3>
                 <p class="container-text-color">
@@ -284,7 +284,7 @@
                 <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 order-md-2 order-xs-2 no-padding">
+            <div class="col-md-6">
                 <img src="./assets/img/theme/section3.jpg" class="img-fluid">
             </div>
           </div>
@@ -296,11 +296,7 @@
         <div class="row br-bottom">
           <div class="col-lg-6 col-no-padding">
             <div class="br-right">
-              <svg class="heading-icon">
-                <circle fill="#B9F4BC" cx="33" cy="33" r="33"></circle>
-                <path d="M20 24c0-1.7 1-2.3 2.5-1.3l13 8.6c1.4 1 1.4 2.4 0 3.4l-13 8.6c-1.4 1-2.5.4-2.5-1.3V24" fill="rgb(110, 214, 154)" fill-opacity="0.9999999999999509" transform="translate(-1.9610979506978765e-12 8.100187187665142e-13) scale(0.9999999999999755)"></path><path d="M20 24c0-1.7 1-2.3 2.5-1.3l13 8.6c1.4 1 1.4 2.4 0 3.4l-13 8.6c-1.4 1-2.5.4-2.5-1.3V24" fill="rgb(27,185,120)" fill-opacity="0.9999999999991046" transform="translate(12.000011478325447)"></path>
-              </svg>
-              <h4 class="icon-text-green">Always Improving</h4>
+              <h4>Always Improving</h4>
               <p>
                 Agora Science is an always-improving platform that gains new features at a rapid pace. Our world-class engineering and research team constantly produces scholar level material. Through our open invitation to outside developers we continue to improve the robustness of the network.
               </p>
@@ -309,12 +305,7 @@
           </div>
           <div class="col-lg-6 col-no-padding">
             <div class="br-left">
-              <svg class="heading-icon">
-                <circle fill="#B9F4BC" cx="33" cy="33" r="33"></circle>
-                <rect fill="none" stroke="#6ED69A" stroke-width="2" x="22" y="22" width="22" height="22" rx="1"></rect>
-                <path d="M26.10213952587307,32.09824947883113 C25.002398862342535,30.99850881530059 24.002593364694633,31.298379147065855 24.002593364694633,32.998054976479025 L24.002593364694633,39.99740663530537 C24.002593364694633,41.09740663530537 24.90259336469463,41.99740663530537 26.002593364694633,41.99740663530537 L33.001945023520975,41.99740663530537 C34.70162085293415,41.99740663530537 35.10155601881678,41.09766597177483 33.90175052116887,39.89786047412693 L31.801815355286244,37.797925308244295 L37.797925308244295,31.801815355286244 L39.89786047412693,33.90175052116887 C40.99760113765747,35.00149118469941 41.99740663530537,34.70162085293415 41.99740663530537,33.001945023520975 L41.99740663530537,26.002593364694633 C41.99740663530537,24.90259336469463 41.09740663530537,24.002593364694633 39.99740663530537,24.002593364694633 L32.998054976479025,24.002593364694633 C31.298379147065855,24.002593364694633 30.89844398118322,24.902334028225166 32.09824947883113,26.10213952587307 L34.298249478831124,28.302139525873073 L28.302139525873073,34.298249478831124 L26.10213952587307,32.09824947883113" stroke="#B9F4BC" stroke-width="2" fill="#1BB978"></path>
-              </svg>
-              <h4 class="icon-text-green">Global Scale</h4>
+              <h4>Global Scale</h4>
               <p>
                 We help millions of business and individuals across a multitude of industries. Headquartered in Mountain View, Agora Science has three offices and is constantly recruiting talented individuals to help democratize computing and develop the engine for Web3.0.
               </p>
@@ -331,26 +322,26 @@
           <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/icons.html">
             <div class="icons-container blur-item mt-5" data-toggle="on-screen">
               <div class="row text-center">
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-lg-2">
                   <h3 class="items-colors">Team.</h3>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-lg-2">
                   <h6>Nabeel Quryshi</h6>
                   <span>CEO & Founder</span>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-lg-2">
                   <h6>Zeel Patel</h6>
                   <span>Co-Founder</span>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-lg-2">
                   <h6>Munish Chhabra</h6>
                   <span>CTO & Founder</span>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-lg-2">
                   <h6>Kanika Jain</h6>
                   <span>COO & Founder</span>
                 </div>
-                <div class="col-lg-2 col-sm-4">
+                <div class="col-lg-2">
                   <h6>Bina Ramurthy</h6>
                   <span>Blockchain Expert</span>
                 </div>
@@ -380,8 +371,8 @@
           <div class="col-lg-8">
             <div class="card bg-gradient-secondary shadow">
               <div class="card-body p-lg-5">
-                <h4 class="mb-1">Drop us a line</h4>
-                <p class="mt-0">Contact us and learn more about our platform</p>
+                <h4 class="mb-1">Lorem ipsum dolor?</h4>
+                <p class="mt-0">Lorem ipsum dolor, sed do eiusmod tempor.</p>
                 <div class="form-group mt-5">
                   <div class="input-group input-group-alternative">
                     <div class="input-group-prepend">
@@ -457,7 +448,7 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><i class="ni ni-email-83"></i></div>
                   </div>
-                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
                 </div>
               </div>
               <div class="col-auto my-1">
@@ -557,6 +548,12 @@
       </div>
     </div>
   </footer>
+
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+
 
   <!-- Core -->
   <script src="./assets/vendor/jquery/jquery.min.js"></script>

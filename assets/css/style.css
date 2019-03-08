@@ -424,3 +424,100 @@ canvas {
 .wh-clr-bold {
   color: white !important;
 }
+.heading-icon {
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin-bottom: 20px;
+}
+.icon-text-green {
+  text-transform: uppercase;
+  color: #1bb978;
+  font-size: 18px;
+}
+.text-green {
+  color: #1bb978 !important;
+}
+.card:hover p {
+  color: #0009;;
+}
+.card:hover h5 {
+  color: #0009;;
+}
+
+@media only screen and (max-width: 768px) {
+  #center-padding {
+    padding: 20px 20px;
+  }
+  .br-right {
+    padding: 60px 20px;
+    border-bottom: 1px solid #f4f5f7;
+  }
+  .br-left {
+    padding: 60px 20px;
+    border-top: 1px solid #f4f5f7;
+  }
+  .display-3 {
+    font-size: 28px;
+  }
+  .order-xs-first
+  {
+      order: -1;
+  }
+  .order-xs-last
+  {
+      order: 13;
+  }
+  .order-xs-0
+  {
+      order: 0;
+  }
+  .order-xs-1
+  {
+      order: 1;
+  }
+  .order-xs-2
+  {
+      order: 2;
+  }
+  .order-xs-3
+  {
+      order: 3;
+  }
+  .order-xs-4
+  {
+      order: 4;
+  }
+  .order-xs-5
+  {
+      order: 5;
+  }
+  .order-xs-6
+  {
+      order: 6;
+  }
+  .order-xs-7
+  {
+      order: 7;
+  }
+  .order-xs-8
+  {
+      order: 8;
+  }
+  .order-xs-9
+  {
+      order: 9;
+  }
+  .order-xs-10
+  {
+      order: 10;
+  }
+  .order-xs-11
+  {
+      order: 11;
+  }
+  .order-xs-12
+  {
+      order: 12;
+  }
+}
