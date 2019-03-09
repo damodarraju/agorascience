@@ -458,7 +458,9 @@ canvas {
   width: 100%;
   height: 20%;
 }
-
+.ic0:hover {
+  background: white !important;
+}
 #line {
   height: 5px;
   max-width: 100% !important;
@@ -472,24 +474,30 @@ canvas {
   position: absolute !important;
   margin-bottom: 30px;
 }
+.ic0 {
+  left: 5%;
+}
+.ic0-span {
+  top: -37px;
+  position: absolute;
+  left: 40px;
+  font-weight: 800;
+}
 .ic1 {
-  left: 15%;
+  left: 25%;
 }
 .ic2 {
-  left: 35%;
+  left: 45%;
 }
 .ic3 {
-  left: 55%;
+  left: 65%;
 }
 .ic4 {
-  left: 75%;
+  left: 85%;
 }
 .timeline .container {
   max-width: 600px !important;
 }
-/* .timeline .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  background-color: #172b4d !important;
-} */
 .timeline .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: #FFF;
 }
@@ -499,6 +507,31 @@ canvas {
 .timeline .nav-item a:hover {
   background: #172b4d !important;
 }
+.contact .badge {
+  background: aliceblue;
+}
+.contact-title {
+  font-weight: 300;
+  padding-top: 12%;
+}
+.contact-title span {
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin: 0 2px;
+}
+.wh-clr-team {
+  color: #fff2f2 !important;
+  font-weight: 700;
+}
+.wh-clr-tp {
+  color: white;
+  font-weight: 200;
+}
+.wh-clr-title-bold {
+  font-weight: 800;
+  color: white !important;
+}
+
 
 @media only screen and (max-width: 768px) {
   #center-padding {
@@ -586,11 +619,19 @@ canvas {
   #heavy-padding {
     padding: 50px 15px;
   }
-  /* .timeline {
+  .timeline {
     display: none;
   }
   #timeline {
     height: 0 !important;
-  } */
+  }
+
+  .none-mobile {
+    display: none;
+  }
+  .mission-title-p {
+    padding: 15px;
+    font-size: 14px;
+  }
 
 }
