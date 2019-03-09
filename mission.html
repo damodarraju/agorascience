@@ -63,20 +63,7 @@
   </header>
   <main>
     <div class="position-relative">
-      <!-- shape Hero -->
       <section class="section section-lg section-shaped pb-250" style="padding-bottom: 0px !important; background-image: url(./assets/img/brains-picks/layout-bg-7.png) !important; background-repeat: no-repeat !important; background-size: cover !important;">
-        <!-- <div class="shape shape-style-1 shape-default">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> -->
-
         <div class="container text-center">
           <div class="row justify-content-md-center">
               <div class="col-lg-10" style="padding: 4rem 0;">
@@ -87,14 +74,12 @@
               </div>
           </div>
         </div>
-        <!-- SVG separator -->
         <div class="separator separator-bottom separator-skew">
           <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
       </section>
-      <!-- 1st Hero Variation -->
     </div>
 
 
@@ -423,7 +408,6 @@
 
 
 
-  <!-- <canvas id="myChart" width="400" height="200"></canvas> -->
   <script type="text/javascript">
   var ctx = document.getElementById("myChart");
   var myChart = new Chart(ctx, {
@@ -465,13 +449,14 @@
               label: 'Optical Quantum DNA Computing',
               data: [-4, -4, -4, -4, -4, -4, -4, -4, -4, -4, 12, 14],
               backgroundColor: ['rgba(255, 159, 64, 0.2)'],
-              borderColor: ['rgba(255, 159, 64, 1)'],
+              borderColor: ['rgba(255, 159, 64, 0.2)'],
             },
         ]
       },
       options: {
           scales: {
               yAxes: [{
+                  type: 'logarithmic',
                   ticks: {
                       min: -4,
                       max: 14,
@@ -479,8 +464,14 @@
                       fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
 
                       // beginAtZero:false,
-                  }
+                  },
               }]
+          },
+          legend: {
+            position: 'top',
+            labels: {
+              usePointStyle: true,
+            }
           }
       }
   });
