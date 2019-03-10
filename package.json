@@ -1,9 +1,9 @@
 {
-  "name": "Agora Science LLC",
+  "name": "Evera Labs LLC",
   "version": "1.0.1",
   "description": "The Future of Decentralized Computing",
   "main": "gulpfile.js",
-  "author": "Agora Science",
+  "author": "Evera Labs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

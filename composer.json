@@ -1,12 +1,12 @@
 {
-  "name": "Agora Science",
+  "name": "Evera Labs",
   "description": "The Future of Decentralized Computing",
   "type": "Main Website",
   "license": "MIT",
   "authors": [
     {
-      "name": "Agora Science",
-      "email": "info@agorascience.com"
+      "name": "Evera Labs",
+      "email": "info@everalabs.com"
     }
   ],
   "require": {}
